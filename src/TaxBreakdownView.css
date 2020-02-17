@@ -1,0 +1,11 @@
+.border-top-3 {
+  border-top: 3px solid lightgrey;
+}
+
+.border-bottom-2 {
+  border-bottom: 2px solid lightgrey;
+}
+
+.active-bracket {
+  background-color: #e9e9e9a3;
+}

@@ -10,7 +10,7 @@ export const getPercentages = () => {
 };
 
 export const formatValueToDollars = function(value) {
-  return `$${Math.round(value).toLocaleString()}`;
+  return `$${Number.parseFloat(value).toLocaleString()}`;
 };
 
 export const formatValueToPercent = function(value) {

@@ -13,6 +13,7 @@ function SalaryInput({ salary, onChangeSalary, onSubmitSalary }) {
             onChange={onChangeSalary}
             type="number"
             min="0"
+            step=".01"
             placeholder="$"
             title="please enter number only"
             required
